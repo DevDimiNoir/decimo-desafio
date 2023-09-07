@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(233, 47%, 7%);
+    width:100%;
+    height:100vh;
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 75%;
+}
+section{
+    background-color:hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding:50px;
+    width: 50%;  
+    height: 100%;
+    border-radius: 15px 0px  0px 15px;
+    text-align: left;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    font-weight: 700;
+    font-family:Inter,Lexend Deca, sans-serif;
+    width: 100%;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+.beneficios{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca, Inter, sans-serif;
+    word-spacing: 3px;
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    height: 100%; 
+    align-items: end;  
+}
+.estatisticas{
+    color: hsl(0, 0%, 100%); 
+    font-family:Inter,Lexend Deca, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: bold;
+}
+.baixo{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: Lexend Deca, Inter, sans-serif;
+    text-transform: uppercase;
+}
+figure{
+    background-color:hsla(277, 91%, 42%, 0.534);
+    width: 50%;
+    height: 100%;
+    position: relative;
+    border-radius: 0px 15px 15px 0px; 
+}
+.imagem{
+    width:100%;
+    height:100%;
+    border-radius: 0px 15px 15px 0px; 
+    position: absolute;
+    z-index: -1;
+}
+
